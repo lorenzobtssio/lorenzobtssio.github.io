@@ -295,3 +295,11 @@ Compétences
 #competences .container .classement5 {
     background-position: 0 0px;
 }
+
+
+
+
+
+.passion{ color: #fff; display: inline-block; margin-right: 5px;
+          margin-bottom: 5px; padding: 5px 5px 5px 5px; background: #000;
+          position: relative; font-size: 1.2em; border-radius: 10px; }
