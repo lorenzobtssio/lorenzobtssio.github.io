@@ -43,7 +43,7 @@ body {
     color: rgb(226,0,26);
 }
 #cv-intro::after {
-    background: url('images/ligne.png'); /* Dossier "images" est un sous-
+    background: url('../images/ligne.png'); /* Dossier "images" est un sous-
      dossier de "css" (à créer) */
     width: 100%;
     height: 3px;
@@ -273,8 +273,7 @@ Compétences
     font-size: 1.3em;
 }
 #competences .container .classement {
-    background: scroll transparent url(images/Red-Rating-Stars.png) no-repeat;
-    width: 160px;
+background: scroll transparent url('../images/Red-Rating-Stars.png') no-repeat;    width: 160px;
     height: 27px;
 }
 #competences .container .classement0 {
