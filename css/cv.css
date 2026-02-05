@@ -19,18 +19,18 @@ body {
     width: 100%;
 }
 #cv-photo {
-    width: 172px;
-    height: 172px;
-    border-radius: 50%;
-    overflow: hidden;
-    padding: 5px;
-    background: #eee;
     display: inline-block;
+    position: relative;
 }
+
 #cv-photo img {
     width: 160px;
     height: 160px;
-    border-radius: 50%;
+    object-fit: cover; 
+    border-radius: 50%; 
+    border: 4px solid white;
+    box-shadow: 0 0 0 3px rgb(226,0,26); /* contur rouge fin */
+
 }
 #cv-intro h1 {
     margin: 0;
